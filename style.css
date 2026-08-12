@@ -8,97 +8,86 @@ html {
     background-color: rgb(255, 0, 0);
 }
 
-header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-    color: #ffffff;
-    font-size: 15px;
-}
-
-.my-5 {
-    background-color: #ffffff;
-    width: 800px;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 50px;
-    padding: 5px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    border-radius: 10px;
-}
+/*desktop*/
+@media (min-width: 992px) {
 
 
-.user-form {
-    background-color: white;
-    width: 600px;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5px;
-    margin-bottom: 20px;
-}
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        color: #ffffff;
+        font-size: 15px;
+    }
 
-.datiUtente {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 50px;
-    gap: 50px;
-}
+    .my-5 {
+        background-color: #ffffff;
+        width: 800px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
-.form-control {
-    width: 200px;
-    padding: 10px 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    cursor: pointer;
-}
+    .datiUtente {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 50px;
+        gap: 50px;
+    }
 
-.nomeCognome {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-}
+    .form-control {
+        width: 200px;
+        padding: 10px 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        cursor: pointer;
+    }
 
-.chilometri {
-    display: flex;
-    flex-direction: column;
+    .nomeCognome {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
 
-    align-items: center;
-    margin-bottom: 20px;
-}
+    .chilometri {
+        display: flex;
+        flex-direction: column;
 
-.eta {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-}
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .eta {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
 
 
 
-.containerbtn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 50px;
-    gap: 50px;
-}
+    .containerbtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+        gap: 50px;
+    }
 
 
-.btn {
-    width: 100px;
-    padding: 10px 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    cursor: pointer;
+    .btn {
+        width: 100px;
+        padding: 10px 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        cursor: pointer;
+    }
 }
