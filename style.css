@@ -4,19 +4,55 @@
     box-sizing: border-box;
 }
 
+html {
+    background-color: rgb(255, 0, 0);
+}
+
 header {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
+    color: #ffffff;
+    font-size: large;
 }
 
-#user-form {
+.my-5 {
+    background-color: #ffffff;
+    width: 800px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.user-form {
+    background-color: white;
+    width: 600px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.datiUtente {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
+    margin: 50px;
+    gap: 50px;
+}
+
+.form-control {
+    width: 200px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .nomeCognome {
@@ -30,7 +66,7 @@ header {
 .chilometri {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+
     align-items: center;
     margin-bottom: 20px;
 }
@@ -43,15 +79,21 @@ header {
     margin-bottom: 20px;
 }
 
-button {
+
+
+.containerbtn {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
-    background-color: #0000005d;
-    color: #000000;
-    border: none;
+    gap: 50px;
+}
+
+
+.btn {
+    width: 100px;
     padding: 10px 20px;
+    border: 1px solid #ccc;
     border-radius: 5px;
     cursor: pointer;
 }
