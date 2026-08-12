@@ -15,7 +15,7 @@ header {
     align-items: center;
     margin-bottom: 20px;
     color: #ffffff;
-    font-size: large;
+    font-size: 15px;
 }
 
 .my-5 {
@@ -23,11 +23,15 @@ header {
     width: 800px;
     height: 200px;
     display: flex;
+    justify-content: center;
     align-items: center;
+    margin: 50px;
+    padding: 5px;
     margin-top: 50px;
     margin-bottom: 50px;
     border-radius: 10px;
 }
+
 
 .user-form {
     background-color: white;
@@ -36,6 +40,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 5px;
     margin-bottom: 20px;
 }
 
